@@ -1,0 +1,74 @@
+/* General Styles */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+h1, h2, h3, h4, h5 {
+  font-size: 20px;
+}
+
+p {
+  line-height: 1.25;
+  margin: 20px 0;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+header {
+  border-bottom: 1px solid black;
+  margin: 20px 0;
+  padding: 20px 0;
+}
+
+strong {
+  font-weight: bold;
+  color: red;
+}
+
+header h1 {
+  font-size: 20px;
+  display: inline-block;
+}
+
+header nav {
+  margin: 20px 0;
+  display: inline-block;
+  margin-left: 62px;
+}
+
+header nav a {
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+header nav .first-anchor {
+  margin-left: 0;
+}
+
+.main-content section {
+  margin: 20px 1%;
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.book-flight-btn {
+ display: block;
+ margin: 10px 20px 20px; 
+}
+
+.main-footer {
+  margin-bottom: 40px;
+}
+
+.main-footer nav a {
+  margin-left: 20px;
+}
+
