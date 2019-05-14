@@ -18,17 +18,15 @@
   margin: 20px auto;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
 }
 
 div.box {
   width: 25%;
-  height: 20%;
+  height: 80%;
   border: 2px dashed hotpink;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .box1 div,
